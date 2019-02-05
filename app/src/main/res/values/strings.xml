@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MiuiLiteTool</string>
+    <string name="tips">注意事项:\n
+        &#160;1.删除完成后会有大量app崩溃，属于正常情况，重启即可。\n
+        &#160;2.本应用只剔除System分区的推广。\n
+        &#160;3.为防止误伤,data分区推广请自行卸载。\n
+        &#160;4.精简后无法还原，请自行选择精简规则。\n
+        \n声明：仅适用于三方官改MIUI，请勿用于原生或者其他非MIUI系统，本软件完全免费，请勿上当受骗！
+    </string>
+    <string name="title">一键&#160;<b>优雅</b></string>
+    <string name="log"><u>点击查看清理日志</u></string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="{ion-ios-paper-outline}&#160;指定规则">
+        <menu>
+            <!-- 定义一组单选菜单项 -->
+            <group android:checkableBehavior="single">
+                <!-- 定义多个菜单项 -->
+                <item
+                    android:id="@+id/mi4c_normal"
+                    android:title="{ion-ios-paper-outline}&#160;MI4C官方原版"/>
+                <item
+                    android:id="@+id/mi4c_Lite"
+                    android:title="{ion-ios-paper-outline}&#160;MI4C适度精简"/>
+                <item
+                    android:id="@+id/mi5_normal"
+                    android:title="{ion-ios-paper-outline}&#160;MI5官方原版"/>
+                <item
+                    android:id="@+id/mi5_Lite"
+                    android:title="{ion-ios-paper-outline}&#160;MI5适度精简"/>
+                <item
+                    android:id="@+id/redmi_note2_normal"
+                    android:title="{ion-ios-paper-outline}&#160;红米Note2官方版"/>
+            </group>
+        </menu>
+    </item>
+    <!-- 定义一个普通菜单项 -->
+    <item android:id="@+id/custom_rules"
+        android:title="{ion-ios-compose-outline}&#160;自定义规则">
+    </item>
+    <item android:id="@+id/logback"
+        android:title="{ion-ios-pricetag-outline}&#160;反馈">
+    </item>
+    <item android:title="{ion-social-designernews-outline}&#160;关于">
+        <menu>
+            <!-- 定义一组普通的菜单项 -->
+            <group>
+                <!-- 定义三个菜单项 -->
+                <item
+                    android:id="@+id/author_info"
+                    android:title="{ion-ios-information-outline}&#160;作者详情"/>
+                <item
+                    android:id="@+id/author_blog"
+                    android:title="{ion-ios-navigate-outline}&#160;作者博客"/>
+                <item
+                    android:id="@+id/donate"
+                    android:title="{ion-ios-infinite-outline}&#160;捐赠作者"/>
+            </group>
+        </menu>
+    </item>
+</menu>
